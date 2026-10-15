@@ -17,16 +17,17 @@
 ## 넣기
 
 1. [Releases](https://github.com/poha-dev/Podam-module/releases) 에서 원하는 모듈의 zip 을 받습니다
-2. 포담의 **모듈 폴더**에 풉니다 — 어디인지는 포담을 켤 때 창에 찍힙니다
-   (아래는 한 예일 뿐이고, 드라이브나 위치가 정해져 있지는 않습니다)
+2. 포담 옆의 **`modules` 폴더**에 풉니다 — 압축을 푼 그 자리, `포담 시작.cmd` 가 있는 곳입니다.
+   (어디를 보는지는 포담을 켤 때 창에 그대로 찍힙니다)
 
    ```
-   모듈 없음 — 넣을 곳: C:\Users\…\Podam\modules
+   모듈 없음 — 넣을 곳: D:\포담-0.1.0-win-x64\modules
    ```
 3. 포담을 다시 켭니다. 이렇게 나오면 된 겁니다
 
    ```
-   모듈 2개: trpg, verdict  (C:\Users\…\Podam\modules)
+   모듈 2개: trpg, verdict
+      D:\포담-0.1.0-win-x64\modules  (trpg, verdict)
    ```
 4. 방을 만들 때 「쓸 기능 고르기」에서 체크하거나, GM 화면의 **🧩 모듈** 로 켭니다
 
