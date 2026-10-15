@@ -34,7 +34,8 @@ foreach ($m in $mods) {
 }
 
 # ── 넷을 한꺼번에 ────────────────────────────────────────────────────────────
-$all = Join-Path $dist "포담-공식모듈-$Version.zip"
+# 이름은 ASCII 로 — 깃허브 Releases 가 한글을 떼어 버린다.
+$all = Join-Path $dist "podam-modules-all-$Version.zip"
 Compress-Archive ($mods.FullName) $all -Force
 $kb = [math]::Round((Get-Item $all).Length / 1KB)
 Write-Host ("  {0,-14} {1,6} KB" -f '(전부)', $kb)
