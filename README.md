@@ -16,7 +16,7 @@
 
 ## 넣기
 
-1. [Releases](https://github.com/poha-dev/Podam-module/releases) 에서 원하는 모듈의 zip 을 받습니다
+1. [Releases](https://github.com/poha-dev/Podam-modules/releases) 에서 원하는 모듈의 zip 을 받습니다
 2. 포담 옆의 **`modules` 폴더**에 풉니다 — 압축을 푼 그 자리, `포담 시작.cmd` 가 있는 곳입니다.
    (어디를 보는지는 포담을 켤 때 창에 그대로 찍힙니다)
 
