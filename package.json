@@ -1,0 +1,10 @@
+{
+  "name": "podam-modules",
+  "version": "1.0.0",
+  "description": "포담(Podam) 공식 모듈 — 정답 판정 · 간이 TRPG · 캐릭터 카드 · AI 시나리오 보조",
+  "private": true,
+  "scripts": {
+    "test": "node test/e2e.js"
+  },
+  "license": "MIT"
+}
